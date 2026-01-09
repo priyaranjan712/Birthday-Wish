@@ -84,7 +84,7 @@ const BackgroundMusic: React.FC = () => {
             Experience
           </span>
           <span className={`text-[12px] font-bold tracking-widest ${isPlaying ? 'text-white' : 'text-slate-400'}`}>
-            {isPlaying ? 'ON' : 'OFF'}
+            {isPlaying ? 'MUSIC ON' : 'MUSIC OFF'}
           </span>
         </div>
       </button>

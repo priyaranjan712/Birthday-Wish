@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
           <span className="hover:text-white transition-colors cursor-default">For You</span>
         </div>
         <div className="text-[10px] uppercase tracking-[0.2em] text-slate-700">
-          Created with Heart & Skill — Mr. Priyaranjan
+          Built with Modern Software Craftsmanship — Priyaranjan
         </div>
       </div>
     </footer>
