@@ -1,11 +1,37 @@
 
 import React, { useState } from 'react';
+import emailjs from "emailjs-com";   //emailjs import
+
+// -------------email sending function----------------
+const sendEmail = (choice: 'yes' | 'no') => {
+  const timeIST = new Date().toLocaleString("en-IN", {
+    timeZone: "Asia/Kolkata",
+    dateStyle: "full",
+    timeStyle: "medium",
+  });
+
+  emailjs.send(
+    "service_hhttvtr",      // 🔁 YOUR EmailJS service ID
+    "template_67wgx4e",     // 🔁 YOUR template ID
+    {
+      response: choice.toUpperCase(),
+      time: timeIST,
+    },
+    "66lYwMRciiumrDleL"     // 🔁 YOUR public key
+  ).catch((err) => {
+    console.error("Email failed:", err);
+  });
+};
+
+
+// ------------------------------------------
 
 const CallRequest: React.FC = () => {
   const [response, setResponse] = useState<'yes' | 'no' | null>(null);
 
   const handleChoice = (choice: 'yes' | 'no') => {
     setResponse(choice);
+    sendEmail(choice); // 🔥 THIS sends email instantly
     console.log(`Iti chose: ${choice}`);
   };
 
