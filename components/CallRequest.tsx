@@ -50,7 +50,7 @@ const CallRequest: React.FC = () => {
             
             <h2 className="text-3xl md:text-5xl font-serif mb-8 text-white tracking-tight">One Humble Request?</h2>
             <p className="text-slate-400 text-lg mb-12 max-w-lg mx-auto leading-relaxed font-light">
-              I've missed the sound of your voice more than words can say. If you're comfortable and miss me (even 0.0001%) too, could we have a short phone call today? 
+              I've missed the sound of your voice more than words can say. If you're comfortable and miss me too (even 0.0001%), could we have a short phone call today? 
               <br/><span className="text-xs uppercase tracking-[0.4em] mt-6 block text-violet-400/60 font-bold">No pressure, just a heartbeat away.</span>
             </p>
 
