@@ -53,7 +53,7 @@ const InteractiveMessage: React.FC = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-violet-500/5 to-rose-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-1000" />
             <h2 className="text-3xl md:text-4xl font-serif mb-6 relative text-white">A Humble Note</h2>
             <p className="text-slate-400 mb-10 max-w-md mx-auto relative font-light">
-              I've waited for the right moment to say this. Click below to see the words I've kept for you.
+              Click below to see the words I've kept for you.
             </p>
             <button
               onClick={handleUnlock}
@@ -96,7 +96,7 @@ const InteractiveMessage: React.FC = () => {
                  {greeting?.message}
                </p>
                <div className="border-t border-white/5 pt-10">
-                 <p className="font-light text-slate-400 italic mb-2 text-lg">With respect and warmth,</p>
+                 <p className="font-light text-slate-400 italic mb-2 text-lg">With heartfelt wishes,</p>
                  <p className="font-cursive text-6xl text-transparent bg-clip-text bg-gradient-to-r from-white to-violet-200">
                    Gudu
                  </p>
