@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
         </h1>
         
         <p className="text-slate-400 text-lg md:text-xl font-light mb-12 max-w-lg mx-auto leading-relaxed">
-          Through the quiet moments and the distance, your light remains constant in my heart. Today is a celebration of you.
+          Through the silent moments and the distance, your light remains constant in my heart. Today is a celebration of you.
         </p>
         
         <button 

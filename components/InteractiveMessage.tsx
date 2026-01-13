@@ -51,7 +51,7 @@ const InteractiveMessage: React.FC = () => {
         {!revealed ? (
           <div className="glass-card p-12 py-24 relative group overflow-hidden border-violet-500/10">
             <div className="absolute inset-0 bg-gradient-to-r from-violet-500/5 to-rose-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-1000" />
-            <h2 className="text-3xl md:text-4xl font-serif mb-6 relative text-white">A Quiet Note</h2>
+            <h2 className="text-3xl md:text-4xl font-serif mb-6 relative text-white">A Gentle Note</h2>
             <p className="text-slate-400 mb-10 max-w-md mx-auto relative font-light">
               Click below to see the words I've kept for you.
             </p>
