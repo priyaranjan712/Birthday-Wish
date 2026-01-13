@@ -74,7 +74,7 @@ const CallRequest: React.FC = () => {
           <div className="relative z-10 animate-fadeIn py-16">
             {response === 'yes' ? (
               <div className="space-y-8">
-                <div className="text-6xl mb-8 animate-bounce">✨</div>
+                <div className="text-6xl mb-8 animate-bounce">🌸</div>
                 <h3 className="text-3xl md:text-4xl font-serif text-white">That makes me so happy.</h3>
                 <p className="text-slate-400 text-lg max-w-md mx-auto font-light">
                   I'll wait for your signal or reach out when you're ready. I truly appreciate you giving me this chance.
