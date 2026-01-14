@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
           }}
           className="group relative inline-flex items-center gap-2 px-10 py-4 bg-white text-gray-950 font-bold rounded-full overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-xl shadow-violet-500/10"
         >
-          <span>A Journey for You(click or scroll)</span>
+          <span>Click here or Scoll down</span>
           <svg className="w-5 h-5 transition-all group-hover:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
           </svg>
