@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
       
       <div className="z-10 text-center max-w-2xl">
         <span className="inline-block px-4 py-1.5 rounded-full border border-violet-500/20 bg-violet-500/5 text-violet-300 text-sm font-medium mb-6 tracking-[0.3em] animate-pulse">
-          JANUARY 14, 2026
+          JANUARY 15, 2026
         </span>
         
         <h1 className="text-6xl md:text-8xl font-serif mb-6 leading-tight">
